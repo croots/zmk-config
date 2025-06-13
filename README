@@ -1,0 +1,5 @@
+My personal configuration for ZMK
+
+Initial repo set up using the standard ZMK pipeline. Flake based off of  lilyinstarlight/zmk-nix
+
+Run `nix run .#update` to update West dependencies, including ZMK version, and bump the `zephyrDepsHash` on the derivation. `nix build` generates the firmware files

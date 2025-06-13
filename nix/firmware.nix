@@ -6,7 +6,7 @@
 buildSplitKeyboard {
   name = "corne-firmware";
 
-  src = lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ];
+  src = lib.sourceFilesBySuffices self [ ".board" ".cmake" ".conf" ".defconfig" ".dts" ".dtsi" ".json" ".keymap" ".overlay" ".shield" ".yml" "_defconfig" ".h"];
 
   board = "nice_nano_v2";
   shield = "corne_%PART% nice_view_adapter nice_view";
